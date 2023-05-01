@@ -7,6 +7,14 @@ const config : AWS = {
         name:"aws",
         runtime:"nodejs14.x",
         region:"ap-northeast-2",
+        logs:{
+            httpApi: true,
+            // httpApi:{
+            //     format:{
+            //
+            //     }
+            // }
+        }
     },
     functions:{
         hello : {
