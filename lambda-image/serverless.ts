@@ -1,4 +1,5 @@
 import type {AWS} from "@serverless/typescript";
+import resources from "./s3-cloudfront.json";
 
 const config : AWS = {
     service :"photo-optimizer-api",
