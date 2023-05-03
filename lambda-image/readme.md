@@ -80,7 +80,7 @@ aws cloudformation describe-stack-events --stack-name 스택이름
      "Timestamp": "2023-05-03T16:42:30.943000+00:00",
      "ResourceStatus": "CREATE_FAILED",
      "ResourceStatusReason": "No hosted zones named 도메인 이름 found",
-     "ResourceProperties": "{\"AliasTarget\":{\"HostedZoneId\":\"Z2FDTNDATAQYW2\",\"DNSName\":\"ddb9n2vfhk3q8.cloudfront.net\"},\"Type\":\"A\",\"HostedZoneName\":\"studynodejs.com\",\"Name\":\"studynodejs.com\"}"
+     "ResourceProperties": "{\"AliasTarget\":{\"HostedZoneId\":\"Z2FDTNDATAQYW2\",\"DNSName\":\"ddb9n2vfhk3q8.cloudfront.net\"},\"Type\":\"A\",\"HostedZoneName\":\"도메인명\",\"Name\":\"도메인명\"}"
  },
 
 ```
